@@ -147,11 +147,9 @@ nav {
     width: 300px;
     height: 300px;
     border-radius: 50%;
-    background-color: #ddd;
-    background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="300" height="300" viewBox="0 0 300 300"><rect width="300" height="300" fill="%234a6fa5" opacity="0.2"/><circle cx="150" cy="120" r="60" fill="%234a6fa5" opacity="0.4"/><path d="M150,240 C200,240 240,200 240,150 C240,100 200,60 150,60 C100,60 60,100 60,150 C60,200 100,240 150,240 Z" fill="%234a6fa5" opacity="0.4"/></svg>');
-    background-size: cover;
-    background-position: center;
+    object-fit: cover;
     box-shadow: var(--shadow);
+    border: 4px solid white;
 }
 
 .hero-text {
